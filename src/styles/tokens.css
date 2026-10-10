@@ -1,0 +1,37 @@
+:root {
+  /* Färger */
+  --color-bg: #e8e9eb;
+  --color-ink: #111315;
+  --color-dim: #4d545c;
+  --color-hairline: #b4b8be;
+  --color-card: #f3f4f5;
+  --color-accent: #b53d0a;
+
+  /* Typsnitt */
+  --font-sans: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, monospace;
+
+  /* Textstorlekar */
+  --fs-mono: 0.8125rem;                      /* 13px */
+  --fs-body: 1.0625rem;                      /* 17px */
+  --fs-lead: 1.1875rem;                      /* 19px */
+  --fs-h3: 1.25rem;                          /* 20px */
+  --fs-h2: clamp(1.625rem, 3vw, 2rem);       /* 26–32px */
+  --fs-section-num: clamp(2.5rem, 5vw, 3.5rem); /* 40–56px */
+  --fs-name: clamp(2.5rem, 6vw, 5rem);       /* 40–80px */
+
+  /* Avstånd */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-5: 1.5rem;   /* 24px */
+  --space-6: 2rem;     /* 32px */
+  --space-7: 2.5rem;   /* 40px */
+  --space-8: 3.5rem;   /* 56px */
+
+  /* Layout */
+  --page-max: 70rem;   /* 1120px */
+  --gutter: var(--space-5);
+  --nav-height: 4rem;
+}
